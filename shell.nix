@@ -16,7 +16,7 @@ in
 
 pkgs.mkShell {
   buildInputs = [
-    # myAppEnv
+    myAppEnv
     pkgs.poetry
   ];
 
